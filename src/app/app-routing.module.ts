@@ -17,6 +17,12 @@ import { RoDashboardComponent } from './ro-onboard/ro-dashboard/ro-dashboard.com
 import { RoProfileComponent } from './ro-onboard/ro-profile/ro-profile.component';
 import { RoListViewPfaComponent } from './ro-onboard/ro-list-view-pfa/ro-list-view-pfa.component';
 import { RoAddPfaComponent } from './ro-onboard/ro-add-pfa/ro-add-pfa.component';
+import { PfaDashboardComponent } from './pfa-onboard/pfa-dashboard/pfa-dashboard.component';
+import { PfaProfileComponent } from './pfa-onboard/pfa-profile/pfa-profile.component';
+import { AddPfaUserComponent } from './pfa-onboard/add-pfa-user/add-pfa-user.component';
+import { ListViewPfaUserComponent } from './pfa-onboard/list-view-pfa-user/list-view-pfa-user.component';
+import { AddFormLandsComponent } from './pfa-onboard/add-form-lands/add-form-lands.component';
+import { ListViewFormLandsComponent } from './pfa-onboard/list-view-form-lands/list-view-form-lands.component';
 
 const routes: Routes = [
   { path: 'signUp', component: SignUpComponent },
@@ -35,7 +41,13 @@ const routes: Routes = [
   { path: 'ro-dashboard', component: RoDashboardComponent },
   { path: 'ro-profile', component: RoProfileComponent },
   { path: 'ro-list-view-pfa', component: RoListViewPfaComponent },
-  { path: 'ro-add-pfa', component: RoAddPfaComponent }
+  { path: 'ro-add-pfa', component: RoAddPfaComponent },
+  { path: 'pfa-dashboard', component: PfaDashboardComponent },
+  { path: 'pfa-profile', component: PfaProfileComponent },
+  { path: 'add-pfa-user', component: AddPfaUserComponent },
+  { path: 'list-view-pfa-user', component: ListViewPfaUserComponent },
+  { path: 'add-form-lands', component: AddFormLandsComponent },
+  { path: 'list-view-form-lands', component: ListViewFormLandsComponent }
 
 ];
 

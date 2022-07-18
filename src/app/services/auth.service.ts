@@ -20,4 +20,16 @@ export class AuthService {
     };
     return this.http.post(api_url, data, httpOptions);
   }
+
+  getUser() {
+    let api_url = "https://award.face-cii.in/api/list-allocation";
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'content-type': 'application/json;charset=UTF-8',
+        'Access-Control-Allow-Origin': '*',
+        // 'apikey': this.api_key
+      }),
+    };
+    return this.http.get(api_url);
+  }
 }

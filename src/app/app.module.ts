@@ -28,6 +28,14 @@ import { RoSidenavComponent } from './ro-onboard/ro-sidenav/ro-sidenav.component
 import { RoListViewPfaComponent } from './ro-onboard/ro-list-view-pfa/ro-list-view-pfa.component';
 import { RoAddPfaComponent } from './ro-onboard/ro-add-pfa/ro-add-pfa.component';
 import { RoProfileComponent } from './ro-onboard/ro-profile/ro-profile.component';
+import { PfaDashboardComponent } from './pfa-onboard/pfa-dashboard/pfa-dashboard.component';
+import { PfaHeaderComponent } from './pfa-onboard/pfa-header/pfa-header.component';
+import { PfaSidenavComponent } from './pfa-onboard/pfa-sidenav/pfa-sidenav.component';
+import { PfaProfileComponent } from './pfa-onboard/pfa-profile/pfa-profile.component';
+import { AddPfaUserComponent } from './pfa-onboard/add-pfa-user/add-pfa-user.component';
+import { ListViewPfaUserComponent } from './pfa-onboard/list-view-pfa-user/list-view-pfa-user.component';
+import { AddFormLandsComponent } from './pfa-onboard/add-form-lands/add-form-lands.component';
+import { ListViewFormLandsComponent } from './pfa-onboard/list-view-form-lands/list-view-form-lands.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +61,14 @@ import { RoProfileComponent } from './ro-onboard/ro-profile/ro-profile.component
     RoListViewPfaComponent,
     RoAddPfaComponent,
     RoProfileComponent,
+    PfaDashboardComponent,
+    PfaHeaderComponent,
+    PfaSidenavComponent,
+    PfaProfileComponent,
+    AddPfaUserComponent,
+    ListViewPfaUserComponent,
+    AddFormLandsComponent,
+    ListViewFormLandsComponent,
   ],
   imports: [
     BrowserModule,
