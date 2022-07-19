@@ -23,6 +23,7 @@ import { AddPfaUserComponent } from './pfa-onboard/add-pfa-user/add-pfa-user.com
 import { ListViewPfaUserComponent } from './pfa-onboard/list-view-pfa-user/list-view-pfa-user.component';
 import { AddFormLandsComponent } from './pfa-onboard/add-form-lands/add-form-lands.component';
 import { ListViewFormLandsComponent } from './pfa-onboard/list-view-form-lands/list-view-form-lands.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 const routes: Routes = [
   { path: 'signUp', component: SignUpComponent },
@@ -47,7 +48,8 @@ const routes: Routes = [
   { path: 'add-pfa-user', component: AddPfaUserComponent },
   { path: 'list-view-pfa-user', component: ListViewPfaUserComponent },
   { path: 'add-form-lands', component: AddFormLandsComponent },
-  { path: 'list-view-form-lands', component: ListViewFormLandsComponent }
+  { path: 'list-view-form-lands', component: ListViewFormLandsComponent },
+  { path: 'reset-password', component: ResetPasswordComponent }
 
 ];
 

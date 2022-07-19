@@ -36,6 +36,7 @@ import { AddPfaUserComponent } from './pfa-onboard/add-pfa-user/add-pfa-user.com
 import { ListViewPfaUserComponent } from './pfa-onboard/list-view-pfa-user/list-view-pfa-user.component';
 import { AddFormLandsComponent } from './pfa-onboard/add-form-lands/add-form-lands.component';
 import { ListViewFormLandsComponent } from './pfa-onboard/list-view-form-lands/list-view-form-lands.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +70,7 @@ import { ListViewFormLandsComponent } from './pfa-onboard/list-view-form-lands/l
     ListViewPfaUserComponent,
     AddFormLandsComponent,
     ListViewFormLandsComponent,
+    ResetPasswordComponent,
   ],
   imports: [
     BrowserModule,

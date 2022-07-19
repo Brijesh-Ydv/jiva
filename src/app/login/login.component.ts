@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {AuthService} from '../services/auth.service'
-import {ToasterService} from '../services/toaster.service'
+import { AuthService } from '../services/auth.service'
+import { ToasterService } from '../services/toaster.service'
 import { Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { FormGroup } from '@angular/forms';
@@ -12,7 +12,7 @@ import { FormGroup } from '@angular/forms';
   styleUrls: ['./login.component.css'],
 })
 export class LoginComponent implements OnInit {
- 
+
   checkoutForm!: FormGroup;
 
   public active: boolean = false;
@@ -28,7 +28,7 @@ export class LoginComponent implements OnInit {
     private toast: ToasterService,
     private router: Router,
     private spinner: NgxSpinnerService
-  ) {}
+  ) { }
 
   SubmitLogin(): void {
     this.spinner.show();
@@ -45,7 +45,7 @@ export class LoginComponent implements OnInit {
                 localStorage.setItem('userdata', JSON.stringify(user.results));
                 setTimeout(() => {
                   // this.router.navigate(['/applicant']);
-                  window.location.href="/applicant";
+                  window.location.href = "/applicant";
                 }, 1500);
               } else {
                 setTimeout(() => {
@@ -129,7 +129,7 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    
+
   }
 
 

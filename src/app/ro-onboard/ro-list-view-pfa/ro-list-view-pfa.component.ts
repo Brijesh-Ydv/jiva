@@ -7,11 +7,12 @@ import { AuthService } from '../../services/auth.service';
   styleUrls: ['./ro-list-view-pfa.component.css']
 })
 export class RoListViewPfaComponent {
-  userdata: any;
+  getdata: any;
+
   constructor(private httpService: AuthService) {
     this.httpService.getUser().subscribe((data: any) => {
       console.log("data", data);
-      this.userdata = data
+      this.getdata = data.result
     })
   }
 
